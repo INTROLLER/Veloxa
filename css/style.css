@@ -1,0 +1,596 @@
+body {
+  background-color: #383838;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.main_logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.main_logo img {
+  width: 33px;
+  height: auto;
+  margin-right: 0px;
+}
+
+.products_image {
+  height: 24px;
+  margin-right: 10px;
+}
+
+.about_us_image {
+  height: 24px;
+  margin-right: 7px;
+}
+
+.contact_image {
+  height: 24px;
+  margin-right: 8px;
+}
+
+#scroll-up-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+
+
+a.main_logo_text {
+  /* Set the font family to "Source Sans Pro" */
+  font-family: "Source Sans Pro", sans-serif;
+  
+  /* Set the font weight to bold */
+  font-weight: bold;
+  
+  /* Set the font size to 50 pixels */
+  font-size: 50px;
+  
+  /* Set the text color to white */
+  color: #00e5aa;
+  
+  /* Center the text horizontally */
+  text-align: center;
+  line-height: 50px;
+  
+  /* Add a margin to the top and bottom of the element */
+  margin-top: 240px;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  
+  /* Set the initial size of the square */
+  border: 2px solid transparent;
+  padding: 10px;
+  box-sizing: border-box; /* Include padding and border within element width and height */
+  
+  /* Add a transition to make the animation smoother */
+  transition: all 0.2s ease;
+  
+  /* Set the display to inline-block */
+  display: inline-block;
+
+  /* Center the element horizontally using transform */
+  position: absolute;
+  left: 10%;
+  transform: translateX(-50%);
+
+  /* Set a fixed width and height */
+  width: 250px;
+  height: 80px;
+
+  /* Hide the element's backface during animation */
+  backface-visibility: hidden;
+  text-decoration: none;
+  user-select: none;
+  border-radius: 30px;
+
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+  transform: translate(-50%, -50%);
+
+}
+
+a.main_logo_text:hover {
+  /* Increase the size of the border */
+  /*border-width: 5px;
+  /*border: 5px solid #00e5aa;
+  
+  /* Decrease the size of the padding */
+  /*padding: 10px;
+  
+  /* Keep the size of the element constant */
+  width: 250px;
+  height: 80px;
+  
+  box-shadow: 0 0 0 3px #00e5aa;
+
+}
+
+a.extra_btn_text {
+  /* Set the font family to "Source Sans Pro" */
+  font-family: "Source Sans Pro", sans-serif;
+  
+  /* Set the font size to 30 pixels */
+  font-size: 30px;
+
+
+  text-decoration: none;
+  
+  /* Set the text color to white */
+  color: #ffffff;
+  
+  /* Center the text horizontally */
+  text-align: center;
+  line-height: 45px;
+  
+  /* Add a transition to make the animation smoother */
+  transition: all 0.2s ease;
+  
+  /* Center the element horizontally using transform */
+  position: absolute;
+  left: 10%;
+  transform: translateX(-50%);
+  
+  /* Add some margins */
+  /*margin-top: 50px;
+  margin-left: 550px;
+  margin-bottom: 50px;*/
+  
+  /* Disable text selection */
+  user-select: none;
+  
+  /* Add a border bottom */
+  border-bottom: 2px solid transparent;
+
+  display: inline-flex;
+  align-items: center;
+}
+
+a.extra_btn_text:hover {
+  /* Set the border bottom color to white */
+  border-bottom-color: #00e5aa;
+}
+
+a.extra_btn_text:nth-of-type(1) {
+  margin-top: 45px;
+  margin-left: 1150px;
+  margin-bottom: 50px;
+}
+  
+a.extra_btn_text:nth-of-type(2) {
+  margin-top: 45px;
+  margin-left: 1350px;
+  margin-bottom: 50px;
+}
+  
+a.extra_btn_text:nth-of-type(3) {
+  margin-top: 45px;
+  margin-left: 1550px;
+  margin-bottom: 50px;
+}
+  
+a.extra_btn_text:nth-of-type(4) {
+  margin-top: 45px;
+  margin-left: 1750px;
+  margin-bottom: 50px;
+}
+
+div.Button_container1 {
+  position: relative;
+  background-color: #242424;
+  width: 100%;
+  height: 140px;
+  border-radius: 30px;
+}
+
+div.main_holder1 {
+  background-color: #242424;
+  width: 100%;
+  height: 1085px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+div.about_section {
+  background-color: #242424;
+  width: 100%;
+  height: 260px;
+  margin-top: 10px;
+  border-radius: 30px;
+  transition: all 0.2s ease;
+  border-bottom: 2px solid transparent;
+  border: 2px solid transparent;
+  padding: 15px;
+  box-sizing: border-box; /* Include padding and border within element width and height */
+}
+
+div.contact_section {
+  background-color: #242424;
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  border-radius: 30px;
+}
+
+.about_section1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 1250px;
+  top: 10px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+div.about_section {
+  border: 2px solid transparent;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+
+}
+
+div.about_section:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+.about_section:hover h1 {
+  color: #00e5aa;
+}
+
+div.main_holder1 {
+  border: 2px solid transparent;
+  padding: 15px;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+  align-items: center;
+  overflow: hidden
+}
+
+div.main_holder1:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
+div.main_holder1:hover h1 {
+  color: #00e5aa;
+}
+
+.products_main_title1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 10px;
+  user-select: none;
+}
+
+.home_image1 {
+  margin-top: -40px;
+  margin-left: -200px;
+  width: 2600px;
+  border: none;
+  background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0)); /* Create a horizontal gradient that fades out to transparent */
+  filter: brightness(0.55);
+  z-index: 1;
+}
+
+.main_holder1 .home_text1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  position: absolute;
+  font-size: 100px;
+  left: 530px;
+  top: 220px;
+  z-index: 2;
+}
+
+.main_holder1 .home_text2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  position: absolute;
+  font-size: 80px;
+  left: 330px;
+  top: 420px;
+  z-index: 2;
+}
+
+.about_section2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  position: absolute;
+  width: 1850px;
+  top: 1280px;
+  left: 35px;
+}
+
+.Button_container1 {
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+}
+
+.Button_container1:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
+.our_offers_holder1 {
+  background-color: #111111;
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 20px;
+  border-radius: 30px;
+
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+}
+
+.our_offers_holder1:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
+.our_offers_title1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+
+.our_offers_image1 {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 60px;
+  justify-content: center;
+}
+
+.our_offers_buy_button1{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: absolute;
+  user-select: none;
+  border-bottom: 2px solid transparent;
+
+  margin-top: 360px;
+  margin-left: 157px;
+}
+
+.our_offers_buy_button1:hover {
+  border-bottom-color: #00e5aa;
+}
+
+.our_offers_holder2 {
+  background-color: #111111;
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 490px;
+  border-radius: 30px;
+
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+}
+
+.our_offers_holder2:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
+.our_offers_title2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 51px;
+}
+
+.our_offers_image2 {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 60px;
+  justify-content: center;
+}
+
+.our_offers_buy_button2{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: absolute;
+  user-select: none;
+  border-bottom: 2px solid transparent;
+
+  margin-top: 360px;
+  margin-left: 157px;
+}
+
+.our_offers_buy_button2:hover {
+  border-bottom-color: #00e5aa;
+}
+
+.our_offers_holder3 {
+  background-color: #111111;
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 960px;
+  border-radius: 30px;
+
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+}
+
+.our_offers_holder3:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
+.our_offers_title3 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 23px;
+  margin-left: 85px;
+}
+
+.our_offers_image3 {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 60px;
+  justify-content: center;
+}
+
+.our_offers_buy_button3{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: absolute;
+  user-select: none;
+  border-bottom: 2px solid transparent;
+
+  margin-top: 360px;
+  margin-left: 157px;
+}
+
+.our_offers_buy_button3:hover {
+  border-bottom-color: #00e5aa;
+}
+
+.our_offers_holder4 {
+  background-color: #111111;
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  margin-top: 70px;
+  margin-left: 1430px;
+  border-radius: 30px;
+
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+}
+
+.our_offers_holder4:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
+.our_offers_title4 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 38px;
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.our_offers_image4 {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 60px;
+  justify-content: center;
+}
+
+.our_offers_buy_button4{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: absolute;
+  user-select: none;
+  border-bottom: 2px solid transparent;
+
+  margin-top: 360px;
+  margin-left: 157px;
+}
+
+.our_offers_buy_button4:hover {
+  border-bottom-color: #00e5aa;
+}
+
+
+.our_offers_holder5 {
+  background-color: #111111;
+  position: absolute;
+  height: 450px;
+  width: 400px;
+  margin-top: 580px;
+  margin-left: 20px;
+  border-radius: 30px;
+
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+}
+
+.our_offers_holder5:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
+.our_offers_title5 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 40px;
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 42px;
+}
+
+.our_offers_image5 {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  margin-top: 80px;
+  margin-left: 60px;
+  justify-content: center;
+}
+
+.our_offers_buy_button5{
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 50px;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  position: absolute;
+  user-select: none;
+  border-bottom: 2px solid transparent;
+
+  margin-top: 360px;
+  margin-left: 157px;
+}
+
+.our_offers_buy_button5:hover {
+  border-bottom-color: #00e5aa;
+}
