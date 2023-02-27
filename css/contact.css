@@ -57,7 +57,7 @@ a.main_logo_text {
   /* Add a margin to the top and bottom of the element */
   margin-top: 160px;
   margin-bottom: 30px;
-  margin-left: 150px;
+  margin-left: 0px;
   
   /* Set the initial size of the square */
   border: 2px solid transparent;
