@@ -16,7 +16,6 @@ html {
 .main_logo img {
   width: 33px;
   height: auto;
-  margin-right: 0px;
 }
 
 .products_image {
@@ -52,16 +51,13 @@ a.main_logo_text {
   
   /* Center the text horizontally */
   text-align: center;
-  line-height: 50px;
   
-  /* Add a margin to the top and bottom of the element */
-  margin-top: 160px;
-  margin-bottom: 30px;
-  margin-left: 0px;
+
+  top: 29px;
+  margin-left: 40px;
   
   /* Set the initial size of the square */
-  border: 2px solid transparent;
-  padding: 10px;
+  padding: 7px;
   box-sizing: border-box; /* Include padding and border within element width and height */
   
   /* Add a transition to make the animation smoother */
@@ -69,24 +65,22 @@ a.main_logo_text {
   
   /* Set the display to inline-block */
   display: inline-block;
+  position: relative;
 
-  /* Center the element horizontally using transform */
-  position: absolute;
-  left: 10%;
-  transform: translateX(-50%);
 
   /* Set a fixed width and height */
   width: 250px;
   height: 80px;
 
   /* Hide the element's backface during animation */
-  backface-visibility: hidden;
   text-decoration: none;
   user-select: none;
   border-radius: 30px;
 
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
+
+  
 
 }
 
@@ -105,74 +99,126 @@ a.main_logo_text:hover {
   box-shadow: 0 0 0 3px #00e5aa;
 
 }
+
+.extra_btn_text1 {
+  /* Set the font family to "Source Sans Pro" */
+  font-family: "Source Sans Pro", sans-serif;
+    
+  /* Set the font size to 30 pixels */
+  font-size: 30px;
+
+  text-decoration: none;
+    
+  /* Set the text color to white */
+  color: #ffffff;
+    
+  /* Center the text horizontally */
+    
+  /* Add a transition to make the animation smoother */
+  transition: all 0.2s ease;
+    
+  /* Center the element horizontally using transform */
+  position: absolute;
+    
+  /* Disable text selection */
+  user-select: none;
+    
+  /* Add a border bottom */
+  border-bottom: 2px solid transparent;
   
-  a.extra_btn_text {
-    /* Set the font family to "Source Sans Pro" */
-    font-family: "Source Sans Pro", sans-serif;
-    
-    /* Set the font size to 30 pixels */
-    font-size: 30px;
-  
-  
-    text-decoration: none;
-    
-    /* Set the text color to white */
-    color: #ffffff;
-    
-    /* Center the text horizontally */
-    text-align: center;
-    line-height: 45px;
-    
-    /* Add a transition to make the animation smoother */
-    transition: all 0.2s ease;
-    
-    /* Center the element horizontally using transform */
-    position: absolute;
-    left: 10%;
-    transform: translateX(-50%);
-    
-    /* Add some margins */
-    /*margin-top: 50px;
-    margin-left: 550px;
-    margin-bottom: 50px;*/
-    
-    /* Disable text selection */
-    user-select: none;
-    
-    /* Add a border bottom */
-    border-bottom: 2px solid transparent;
-  
-    display: inline-flex;
-    align-items: center;
-  }
-  
-  a.extra_btn_text:hover {
-    /* Set the border bottom color to white */
-    border-bottom-color: #00e5aa;
-  }
-  
-a.extra_btn_text:nth-of-type(1) {
-  margin-top: 45px;
-  margin-left: 1150px;
-  margin-bottom: 50px;
+  align-items: center;
+  display: inline-flex;
 }
   
-a.extra_btn_text:nth-of-type(2) {
-  margin-top: 45px;
-  margin-left: 1350px;
-  margin-bottom: 50px;
+.extra_btn_text1:hover {
+  /* Set the border bottom color to white */
+  border-bottom-color: #00e5aa;
+}
+
+.extra_btn_text2 {
+  /* Set the font family to "Source Sans Pro" */
+  font-family: "Source Sans Pro", sans-serif;
+    
+  /* Set the font size to 30 pixels */
+  font-size: 30px;
+
+  text-decoration: none;
+    
+  /* Set the text color to white */
+  color: #ffffff;
+    
+  /* Center the text horizontally */
+    
+  /* Add a transition to make the animation smoother */
+  transition: all 0.2s ease;
+    
+  /* Center the element horizontally using transform */
+  position: absolute;
+    
+  /* Disable text selection */
+  user-select: none;
+    
+  /* Add a border bottom */
+  border-bottom: 2px solid transparent;
+  display: inline-flex;
+  align-items: center;
 }
   
-a.extra_btn_text:nth-of-type(3) {
-  margin-top: 45px;
-  margin-left: 1550px;
-  margin-bottom: 50px;
+.extra_btn_text2:hover {
+  /* Set the border bottom color to white */
+  border-bottom-color: #00e5aa;
+}
+
+.extra_btn_text3 {
+  /* Set the font family to "Source Sans Pro" */
+  font-family: "Source Sans Pro", sans-serif;
+    
+  /* Set the font size to 30 pixels */
+  font-size: 30px;
+
+  text-decoration: none;
+    
+  /* Set the text color to white */
+  color: #ffffff;
+    
+  /* Center the text horizontally */
+    
+  /* Add a transition to make the animation smoother */
+  transition: all 0.2s ease;
+    
+  /* Center the element horizontally using transform */
+  position: absolute;
+    
+  /* Disable text selection */
+  user-select: none;
+    
+  /* Add a border bottom */
+  border-bottom: 2px solid transparent;
+  display: inline-flex;
+  align-items: center;
 }
   
-a.extra_btn_text:nth-of-type(4) {
-  margin-top: 45px;
-  margin-left: 1750px;
-  margin-bottom: 50px;
+.extra_btn_text3:hover {
+  /* Set the border bottom color to white */
+  border-bottom-color: #00e5aa;
+}
+  
+.extra_btn_text1 {
+  top: 53px;
+  right: 330px;
+
+}
+  
+.extra_btn_text2 {
+  top: 53px;
+  right: 200px;
+
+}
+  
+.extra_btn_text3 {
+  top: 53px;
+  right: 40px;
+
 }
   
   div.Button_container1 {
@@ -180,19 +226,7 @@ a.extra_btn_text:nth-of-type(4) {
     width: 100%;
     height: 140px;
     border-radius: 30px;
-  }
-  
-  div.main_holder1 {
-    background-color: #242424;
-    width: 1400px;
-    height: 700px;
-    margin-top: 10px;
-    border-radius: 30px;
-    margin-left: 250px;
-    position: absolute;
-    box-sizing: border-box;
-    box-shadow: 0 0 0 2px transparent;
-    transition: box-shadow 0.2s ease;
+    position: relative;
   }
 
   div.main_holder1:hover {
@@ -237,10 +271,23 @@ a.extra_btn_text:nth-of-type(4) {
     top: 10px;
   }
 
+  div.main_holder1 {
+    background-color: #242424;
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 2px transparent;
+    transition: box-shadow 0.2s ease;
+  }
+
  .contact_main_text1 {
     font-family: "Source Sans Pro", sans-serif;
     color: #ffffff;
-    margin-top: 15px;
+    margin-top: 10px;
+    position: relative;
+    top: 16px;
  }
 
 .map_1 {
@@ -258,7 +305,8 @@ a.extra_btn_text:nth-of-type(4) {
     font-family: "Source Sans Pro", sans-serif;
     color: #ffffff;
     font-size: 30px;
-    margin-top: -20px;
+    position: relative;
+    top: -20px;
 }
 
 .Button_container1 {
@@ -270,3 +318,265 @@ a.extra_btn_text:nth-of-type(4) {
   .Button_container1:hover {
     box-shadow: 0 0 0 2px #00e5aa;
   }
+
+@media only screen and (max-width: 595px) {
+  .map_1 {
+    margin-top: 20px;
+    width: 250px;
+    height: 300px;
+  }
+
+  .contact_section_text1 {
+    font-size: 22px;
+  }
+
+  .contact_section_text2 {
+    font-size: 22px;
+  }
+
+  .extra_btn_text1 {
+    visibility: hidden;
+  }
+    
+  .extra_btn_text2 {
+    visibility: hidden;
+  }
+
+  .extra_btn_text3 {
+    visibility: hidden;
+  }
+
+  .Button_container1 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .main_logo {
+    text-align: center;
+    position: absolute;
+    margin-left: none;
+    margin-right: none;
+  }
+  .extra_btn_text1 img {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -100px;
+    padding-bottom: 5px;
+    visibility: visible;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+  }
+
+  .extra_btn_text1 {
+    position: relative;
+    margin-left: 0px;
+    margin-right: -80px;
+    margin-top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .extra_btn_text1 img:hover {
+    border-bottom-color: #00e5aa;
+  }
+
+  .extra_btn_text2 img {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: -35px;
+    padding-bottom: 5px;
+    visibility: visible;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+  }
+
+  .extra_btn_text2 {
+    position: relative;
+    margin-left: 0px;
+    margin-right: -80px;
+    margin-top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .extra_btn_text2 img:hover {
+    border-bottom-color: #00e5aa;
+  }
+
+  .extra_btn_text3 img {
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 70px;
+    padding-bottom: 5px;
+    visibility: visible;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+  }
+
+  .extra_btn_text3 {
+    position: relative;
+    margin-left: 0px;
+    margin-right: -80px;
+    margin-top: 0px;
+    left: 0px;
+    right: 0px;
+  }
+
+  .extra_btn_text3 img:hover {
+    border-bottom-color: #00e5aa;
+  }
+
+  a.main_logo_text {
+    position: none;
+    font-size: 30px;
+    box-shadow: 0 0 0 2px transparent;
+    transition: box-shadow 0.2s ease;
+    width: 150px;
+    height: 50px;
+    margin-top: -130px;
+    margin-left: 0px;
+  }
+
+  a.main_logo_text:hover {
+    box-shadow: 0 0 0 2px #00e5aa;
+    font-size: 30px;
+    width: 150px;
+    height: 50px;
+  }
+
+  .main_logo img {
+    width: 20px;
+    height: auto;
+  }
+
+
+}
+
+@media only screen and (min-width: 596px) {
+  .map_1 {
+    margin-top: 20px;
+    width: 350px;
+    height: 400px;
+  }
+
+  .extra_btn_text1 {
+    visibility: hidden;
+  }
+    
+  .extra_btn_text2 {
+    visibility: hidden;
+  }
+
+  .extra_btn_text3 {
+    visibility: hidden;
+  }
+
+  .extra_btn_text1 img {
+    padding-bottom: 5px;
+    visibility: visible;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 180px;
+  }
+
+  .extra_btn_text1 img:hover {
+    border-bottom-color: #00e5aa;
+  }
+
+  .extra_btn_text2 img {
+    padding-bottom: 5px;
+    visibility: visible;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 100px;
+  }
+
+  .extra_btn_text2 img:hover {
+    border-bottom-color: #00e5aa;
+  }
+
+  .extra_btn_text3 img {
+    padding-bottom: 5px;
+    visibility: visible;
+    border-bottom: 2px solid transparent;
+    transition: all 0.2s ease;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 55px;
+  }
+
+  .extra_btn_text3 img:hover {
+    border-bottom-color: #00e5aa;
+  }
+
+}
+
+@media only screen and (min-width: 800px) {
+  .map_1 {
+    margin-top: 20px;
+    width: 550px;
+    height: 450px;
+  }
+
+  .extra_btn_text1 {
+    visibility: visible;
+  }
+
+  .extra_btn_text1 img {
+    padding-bottom: 0px;
+    visibility: visible;
+    border-bottom: none;
+    transition: all 0.2s ease;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 0px;
+    margin-right: 8px;
+  }
+
+  .extra_btn_text2 {
+    visibility: visible;
+  }
+
+  .extra_btn_text2 img {
+    padding-bottom: 0px;
+    visibility: visible;
+    border-bottom: none;
+    transition: all 0.2s ease;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 0px;
+    margin-right: 8px;
+  }
+
+  .extra_btn_text3 {
+    visibility: visible;
+  }
+
+  .extra_btn_text3 img {
+    padding-bottom: 0px;
+    visibility: visible;
+    border-bottom: none;
+    transition: all 0.2s ease;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: 0px;
+  }
+
+}
