@@ -65,7 +65,7 @@ a.main_logo_text {
   
 
   top: 29px;
-  margin-left: 40px;
+  margin-left: 30px;
   
   /* Set the initial size of the square */
   padding: 7px;
@@ -216,13 +216,13 @@ a.main_logo_text:hover {
 
 .extra_btn_text1 {
   top: 53px;
-  right: 330px;
+  right: 350px;
 
 }
   
 .extra_btn_text2 {
   top: 53px;
-  right: 200px;
+  right: 208px;
 
 }
   
