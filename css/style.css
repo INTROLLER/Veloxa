@@ -246,6 +246,30 @@ div.main_holder1 {
   height: 1085px;
   margin-top: 10px;
   border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-size: cover;
+}
+
+.main_home_holder1 {
+  background-color: #242424;
+  width: 100%;
+  height: 700px;
+  margin-top: 10px;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  background-size: cover;
+
+  border: 2px solid transparent;
+  box-sizing: border-box;
+  box-shadow: 0 0 0 2px transparent;
+  transition: box-shadow 0.2s ease;
+  align-items: center;
+  overflow: hidden;
+  text-align: center;
 }
 
 div.about_section {
@@ -278,6 +302,17 @@ div.contact_section {
   position: absolute;
   margin-top: 1250px;
   top: 10px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+.about_home_section1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  position: absolute;
+  margin-top: 1250px;
+  top: -370px;
   border-bottom: 2px solid transparent;
   transition: all 0.2s ease;
   user-select: none;
@@ -328,30 +363,28 @@ div.main_holder1:hover h1 {
 
 .home_image1 {
   margin-top: -40px;
-  margin-left: -200px;
-  width: 2600px;
   border: none;
   background-image: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0)); /* Create a horizontal gradient that fades out to transparent */
   filter: brightness(0.55);
   z-index: 1;
+  width: 3000px;
+  height: 1200px;
 }
 
-.main_holder1 .home_text1 {
+.home_text1 {
   font-family: "Source Sans Pro", sans-serif;
   color: #ffffff;
   position: absolute;
   font-size: 100px;
-  left: 530px;
-  top: 220px;
+  top: 270px;
   z-index: 2;
 }
 
-.main_holder1 .home_text2 {
+.home_text2 {
   font-family: "Source Sans Pro", sans-serif;
   color: #ffffff;
   position: absolute;
   font-size: 80px;
-  left: 370px;
   top: 420px;
   z-index: 2;
 }
@@ -363,6 +396,16 @@ div.main_holder1:hover h1 {
   position: absolute;
   width: 1850px;
   top: 1280px;
+  text-align: center
+}
+
+.about_home_section2 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  font-size: 22px;
+  position: absolute;
+  width: 1850px;
+  top: 900px;
   text-align: center
 }
 
@@ -955,6 +998,10 @@ div.main_holder1:hover h1 {
     top: 2855px;
   }
 
+  .about_home_section2 {
+    width: 315px;
+  }
+
 }
 
 @media only screen and (min-width: 491px) {  /* 490 size when icon get back*/
@@ -1029,6 +1076,10 @@ div.main_holder1:hover h1 {
     top: 2855px;
   }
 
+  .about_home_section2 {
+    width: 420px;
+  }
+
 }
 
 @media only screen and (min-width: 961px) {  /* 960 size when two icons visible */
@@ -1085,6 +1136,10 @@ div.main_holder1:hover h1 {
     top: 1800px;
   }
 
+  .about_home_section2 {
+    width: 900px;
+  }
+
 }
 
 @media only screen and (min-width: 1431px) {  /* 960 size when three icons visible */
@@ -1139,6 +1194,122 @@ div.main_holder1:hover h1 {
   .about_section2 {
     width: 1350px;
     top: 1280px;
+  }
+
+  .about_home_section2 {
+    width: 1350px;
+  }
+
+  .home_image1 {
+    margin-top: -40px;
+  }
+
+}
+
+@media only screen and (max-width: 450px) { /* 5th change */
+
+  .home_text1 {
+    font-size: 36px;
+    margin-top: 170px;
+  }
+
+  .home_text2 {
+    font-size: 30px;
+    top: 458px;
+    width: 340px;
+  }
+
+}
+
+@media only screen and (min-width: 451px) { /* 4th change */
+
+  .home_text1 {
+    font-size: 43px;
+    margin-top: 170px;
+  }
+
+  .home_text2 {
+    font-size: 28px;
+    top: 465px;
+  }
+
+}
+
+@media only screen and (min-width: 561px) { /* 4th change */
+
+  .home_text1 {
+    font-size: 43px;
+    margin-top: 170px;
+  }
+
+  .home_text2 {
+    font-size: 35px;
+    top: 450px;
+  }
+
+}
+
+@media only screen and (min-width: 701px) { /* 3rd change */
+
+  .home_text1 {
+    font-size: 55px;
+    margin-top: 160px;
+  }
+
+  .home_text2 {
+    font-size: 45px;
+    top: 450px;
+  }
+
+}
+
+@media only screen and (min-width: 861px) { /* 2nd change */
+
+  .home_text1 {
+    font-size: 65px;
+    margin-top: 135px;
+  }
+
+  .home_text2 {
+    font-size: 55px;
+    top: 430px;
+  }
+
+}
+
+
+@media only screen and (min-width: 1009px) { /* 1st change */
+
+  .home_text1 {
+    font-size: 100px;
+    margin-top: 110px;
+  }
+
+  .home_text2 {
+    font-size: 64px;
+    top: 430px;
+  }
+
+}
+
+@media only screen and (min-width: 1241px) { /* back to normal */
+
+  .home_text1 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #ffffff;
+    position: absolute;
+    font-size: 100px;
+    margin-top: 110px;
+    z-index: 2;
+  }
+  
+  .home_text2 {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #ffffff;
+    position: absolute;
+    font-size: 80px;
+    top: 420px;
+    z-index: 2;
   }
 
 }
