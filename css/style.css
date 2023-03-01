@@ -259,6 +259,9 @@ div.about_section {
   border: 2px solid transparent;
   padding: 15px;
   box-sizing: border-box; /* Include padding and border within element width and height */
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 div.contact_section {
@@ -273,7 +276,6 @@ div.contact_section {
   font-family: "Source Sans Pro", sans-serif;
   color: #ffffff;
   position: absolute;
-  margin-left: 20px;
   margin-top: 1250px;
   top: 10px;
   border-bottom: 2px solid transparent;
@@ -361,7 +363,6 @@ div.main_holder1:hover h1 {
   position: absolute;
   width: 1850px;
   top: 1280px;
-  left: 35px;
 }
 
 .Button_container1 {
@@ -385,6 +386,10 @@ div.main_holder1:hover h1 {
 
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .our_offers_holder1:hover {
@@ -396,17 +401,13 @@ div.main_holder1:hover h1 {
   color: #ffffff;
   font-size: 40px;
   position: absolute;
-  margin-top: 15px;
-  margin-left: 92px;
+  margin-top: -370px;
 }
 
 .our_offers_image1 {
   width: 280px;
   height: 280px;
   position: absolute;
-  margin-top: 80px;
-  margin-left: 60px;
-  justify-content: center;
 }
 
 .our_offers_buy_button1{
@@ -420,7 +421,6 @@ div.main_holder1:hover h1 {
   border-bottom: 2px solid transparent;
 
   margin-top: 360px;
-  margin-left: 157px;
 }
 
 .our_offers_buy_button1:hover {
@@ -438,6 +438,10 @@ div.main_holder1:hover h1 {
 
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .our_offers_holder2:hover {
@@ -449,17 +453,13 @@ div.main_holder1:hover h1 {
   color: #ffffff;
   font-size: 40px;
   position: absolute;
-  margin-top: 30px;
-  margin-left: 51px;
+  margin-top: -370px;
 }
 
 .our_offers_image2 {
   width: 280px;
   height: 280px;
   position: absolute;
-  margin-top: 80px;
-  margin-left: 60px;
-  justify-content: center;
 }
 
 .our_offers_buy_button2{
@@ -473,7 +473,6 @@ div.main_holder1:hover h1 {
   border-bottom: 2px solid transparent;
 
   margin-top: 360px;
-  margin-left: 157px;
 }
 
 .our_offers_buy_button2:hover {
@@ -491,6 +490,10 @@ div.main_holder1:hover h1 {
 
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .our_offers_holder3:hover {
@@ -502,17 +505,13 @@ div.main_holder1:hover h1 {
   color: #ffffff;
   font-size: 40px;
   position: absolute;
-  margin-top: 23px;
-  margin-left: 85px;
+  margin-top: -370px;
 }
 
 .our_offers_image3 {
   width: 280px;
   height: 280px;
   position: absolute;
-  margin-top: 80px;
-  margin-left: 60px;
-  justify-content: center;
 }
 
 .our_offers_buy_button3{
@@ -526,7 +525,6 @@ div.main_holder1:hover h1 {
   border-bottom: 2px solid transparent;
 
   margin-top: 360px;
-  margin-left: 157px;
 }
 
 .our_offers_buy_button3:hover {
@@ -544,6 +542,10 @@ div.main_holder1:hover h1 {
 
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
+
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .our_offers_holder4:hover {
@@ -553,19 +555,15 @@ div.main_holder1:hover h1 {
 .our_offers_title4 {
   font-family: "Source Sans Pro", sans-serif;
   color: #ffffff;
-  font-size: 38px;
+  font-size: 40px;
   position: absolute;
-  margin-top: 20px;
-  margin-left: 45px;
+  margin-top: -370px;
 }
 
 .our_offers_image4 {
   width: 280px;
   height: 280px;
   position: absolute;
-  margin-top: 80px;
-  margin-left: 60px;
-  justify-content: center;
 }
 
 .our_offers_buy_button4{
@@ -579,7 +577,6 @@ div.main_holder1:hover h1 {
   border-bottom: 2px solid transparent;
 
   margin-top: 360px;
-  margin-left: 157px;
 }
 
 .our_offers_buy_button4:hover {
@@ -598,6 +595,10 @@ div.main_holder1:hover h1 {
 
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
+  
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .our_offers_holder5:hover {
@@ -609,17 +610,13 @@ div.main_holder1:hover h1 {
   color: #ffffff;
   font-size: 40px;
   position: absolute;
-  margin-top: 15px;
-  margin-left: 42px;
+  margin-top: -370px;
 }
 
 .our_offers_image5 {
   width: 280px;
   height: 280px;
   position: absolute;
-  margin-top: 80px;
-  margin-left: 60px;
-  justify-content: center;
 }
 
 .our_offers_buy_button5{
@@ -633,7 +630,6 @@ div.main_holder1:hover h1 {
   border-bottom: 2px solid transparent;
 
   margin-top: 360px;
-  margin-left: 157px;
 }
 
 .our_offers_buy_button5:hover {
@@ -874,6 +870,274 @@ div.main_holder1:hover h1 {
     width: 24px;
     position: relative;
     left: 0px;
+  }
+
+}
+
+/* For Products */
+
+@media only screen and (max-width: 490px) {  /* 350 size when resize icons*/
+  div.main_holder1 {
+    height: 2650px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .products_main_title1 {
+    margin-top: -2535px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 10;
+  }
+
+  .our_offers_holder1 {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: -2025px;
+  }
+
+  .our_offers_holder2 {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: -1010px;
+  }
+
+  .our_offers_holder3 {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .our_offers_holder4 {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 1030px;
+  }
+
+  .our_offers_holder5 {
+    width: 300px;
+    margin-left: 0px;
+    margin-top: 2045px;
+  }
+  
+  .our_offers_title1 {
+    font-size: 32px;
+  }
+
+  .our_offers_title2 {
+    font-size: 32px;
+  }
+
+  .our_offers_title3 {
+    font-size: 32px;
+  }
+
+  .our_offers_title4 {
+    font-size: 32px;
+  }
+
+  .our_offers_title5 {
+    font-size: 32px;
+  }
+
+  div.about_section {
+    height: 1160px;
+  }
+
+  .about_section1 {
+    margin-top: 2820px;
+  }
+
+  .about_section2 {
+    width: 350px;
+    top: 2855px;
+  }
+
+}
+
+@media only screen and (min-width: 491px) {  /* 490 size when icon get back*/
+
+  div.main_holder1 {
+    height: 2650px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .products_main_title1 {
+    margin-top: -2535px;
+    z-index: 10;
+  }
+
+  .our_offers_holder1 {
+    margin-left: 0px;
+    margin-top: -2025px;
+  }
+
+  .our_offers_holder2 {
+    margin-left: 0px;
+    margin-top: -1010px;
+  }
+
+  .our_offers_holder3 {
+    margin-left: 0px;
+    margin-top: 15px;
+  }
+
+  .our_offers_holder4 {
+    margin-left: 0px;
+    margin-top: 1030px;
+  }
+
+  .our_offers_holder5 {
+    margin-left: 0px;
+    margin-top: 2045px;
+  }
+  
+  .our_offers_title1 {
+    font-size: 40px;
+  }
+
+  .our_offers_title2 {
+    font-size: 40px;
+  }
+
+  .our_offers_title3 {
+    font-size: 40px;
+  }
+
+  .our_offers_title4 {
+    font-size: 40px;
+  }
+
+  .our_offers_title5 {
+    font-size: 40px;
+  }
+
+  div.about_section {
+    height: 930px;
+  }
+
+  .about_section1 {
+    margin-top: 2820px;
+  }
+
+  .about_section2 {
+    width: 420px;
+    top: 2855px;
+  }
+
+}
+
+@media only screen and (min-width: 961px) {  /* 960 size when two icons visible */
+
+  div.main_holder1 {
+    height: 1600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .products_main_title1 {
+    margin-top: -1485px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 10;
+  }
+
+  .our_offers_holder1 {
+    margin-top: -975px;
+    margin-left: -450px;
+  }
+
+  .our_offers_holder2 {
+    margin-right: -450px;
+    margin-top: -975px;
+  }
+
+  .our_offers_holder3 {
+    margin-left: -450px;
+    margin-top: 40px;
+  }
+
+  .our_offers_holder4 {
+    margin-right: -450px;
+    margin-top: 40px;
+  }
+
+  .our_offers_holder5 {
+    margin-left: 0px;
+    margin-top: 1055px;
+  }
+
+  div.about_section {
+    height: 470px;
+  }
+
+  .about_section1 {
+    margin-top: 1770px;
+  }
+
+  .about_section2 {
+    width: 900px;
+    top: 1800px;
+  }
+
+}
+
+@media only screen and (min-width: 1431px) {  /* 960 size when three icons visible */
+  
+  div.main_holder1 {
+    height: 1085px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+  }
+
+  .products_main_title1 {
+    margin-top: -1485px;
+    margin-left: 0px;
+    margin-right: 0px;
+    z-index: 10;
+  }
+
+  .our_offers_holder1 {
+    margin-top: -460px;
+    margin-left: -900px;
+  }
+
+  .our_offers_holder2 {
+    margin-right: 0px;
+    margin-top: -460px;
+  }
+
+  .our_offers_holder3 {
+    margin-left: 900px;
+    margin-top: -460px;
+  }
+
+  .our_offers_holder4 {
+    margin-right: -450px;
+    margin-top: 555px;
+  }
+
+  .our_offers_holder5 {
+    margin-left: -450px;
+    margin-top: 555px;
+  }
+
+  div.about_section {
+    height: 330px;
+  }
+
+  .about_section1 {
+    margin-top: 1250px;
+  }
+
+  .about_section2 {
+    width: 1350px;
+    top: 1280px;
   }
 
 }
