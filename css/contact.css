@@ -205,19 +205,19 @@ a.main_logo_text:hover {
   
 .extra_btn_text1 {
   top: 53px;
-  right: 350px;
+  right: 380px;
 
 }
   
 .extra_btn_text2 {
   top: 53px;
-  right: 208px;
+  right: 238px;
 
 }
   
 .extra_btn_text3 {
   top: 53px;
-  right: 40px;
+  right: 70px;
 
 }
   
@@ -398,9 +398,9 @@ a.main_logo_text:hover {
   .extra_btn_text2 {
     position: relative;
     margin-left: 0px;
-    margin-right: -80px;
+    margin-right: -50px;
     margin-top: 0px;
-    left: 0px;
+    left: 37px;
     right: 0px;
   }
 
@@ -486,7 +486,7 @@ a.main_logo_text:hover {
     width: 50px;
     height: 50px;
     position: absolute;
-    left: 180px;
+    left: 165px;
   }
 
   .extra_btn_text1 img:hover {
@@ -501,7 +501,7 @@ a.main_logo_text:hover {
     width: 50px;
     height: 50px;
     position: absolute;
-    left: 100px;
+    left: 115px;
   }
 
   .extra_btn_text2 img:hover {
