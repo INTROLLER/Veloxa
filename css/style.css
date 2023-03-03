@@ -102,7 +102,6 @@ a.main_logo_text:hover {
   height: 80px;
   
   box-shadow: 0 0 0 2px #00e5aa;
-
 }
 
 .extra_btn_text1 {
@@ -249,7 +248,7 @@ a.main_logo_text:hover {
 
 .Button_container1 {
   position: relative;
-  background: radial-gradient(ellipse at center, #1B2735 0%, #090A0F 100%);
+  /*background: radial-gradient(ellipse at center, #1B2735 0%, #090A0F 100%);*/
   /*background: radial-gradient(ellipse at center, #0f335c 0%, #0a0c16 100%);*/
   /*background: radial-gradient(ellipse at center, #003d2e 0%, #021b15 100%);*/
   width: 100%;
@@ -270,7 +269,7 @@ div.main_holder1 {
 }
 
 .main_home_holder1 {
-  background-color: #1a1a1a;
+  /*background-color: #1a1a1a;*/
   width: 100%;
   height: 700px;
   margin-top: 10px;
@@ -278,19 +277,48 @@ div.main_holder1 {
   align-items: center;
   justify-content: center;
   display: flex;
-  background-size: cover;
 
   border: 2px solid transparent;
   box-sizing: border-box;
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
   align-items: center;
-  overflow: hidden;
   text-align: center;
+  overflow: hidden;
 }
 
 div.main_home_holder1:hover {
   box-shadow: 0 0 0 2px #00e5aa;
+}
+
+
+.binary-digit1 {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #00e5aa;
+  position: absolute;
+  animation: binary-flow 10s linear infinite;
+  z-index: 2;
+  opacity: 0;
+  user-select: none;
+}
+
+@keyframes binary-flow {
+  0% {
+    z-index: 2;
+    top: 165px;
+    opacity: 0;
+  }
+
+  50% {
+    z-index: 2;
+    opacity: 1;
+  }
+
+  100% {
+    z-index: 2;
+    top: 850px;
+    opacity: 0;
+  }
 }
 
 div.about_section {
@@ -399,7 +427,8 @@ div.main_holder1:hover h1 {
   position: absolute;
   font-size: 100px;
   top: 280px;
-  z-index: 2;
+  z-index: 3;
+  user-select: none;
 }
 
 .home_text2 {
@@ -408,8 +437,9 @@ div.main_holder1:hover h1 {
   position: absolute;
   font-size: 80px;
   top: 420px;
-  z-index: 2;
+  z-index: 3;
   transition: all 0.2s ease;
+  user-select: none;
 }
 
 .about_section2 {
@@ -1238,12 +1268,13 @@ div.main_holder1:hover h1 {
   .home_text1 {
     font-size: 36px;
     margin-top: 170px;
+    z-index: 3;
   }
 
   .home_text2 {
-    font-size: 30px;
-    top: 458px;
-    width: 340px;
+    font-size: 22px;
+    top: 470px;
+    z-index: 3;
   }
 
 }
@@ -1253,11 +1284,13 @@ div.main_holder1:hover h1 {
   .home_text1 {
     font-size: 43px;
     margin-top: 170px;
+    z-index: 3;
   }
 
   .home_text2 {
     font-size: 28px;
-    top: 465px;
+    top: 470px;
+    z-index: 3;
   }
 
 }
@@ -1267,11 +1300,13 @@ div.main_holder1:hover h1 {
   .home_text1 {
     font-size: 43px;
     margin-top: 170px;
+    z-index: 3;
   }
 
   .home_text2 {
     font-size: 35px;
     top: 460px;
+    z-index: 3;
   }
 
 }
@@ -1281,11 +1316,13 @@ div.main_holder1:hover h1 {
   .home_text1 {
     font-size: 55px;
     margin-top: 160px;
+    z-index: 3;
   }
 
   .home_text2 {
     font-size: 45px;
     top: 450px;
+    z-index: 3;
   }
 
 }
@@ -1295,11 +1332,13 @@ div.main_holder1:hover h1 {
   .home_text1 {
     font-size: 65px;
     margin-top: 135px;
+    z-index: 3;
   }
 
   .home_text2 {
     font-size: 55px;
     top: 430px;
+    z-index: 3;
   }
 
 }
@@ -1310,11 +1349,13 @@ div.main_holder1:hover h1 {
   .home_text1 {
     font-size: 100px;
     margin-top: 110px;
+    z-index: 3;
   }
 
   .home_text2 {
     font-size: 64px;
     top: 430px;
+    z-index: 3;
   }
 
 }
@@ -1327,7 +1368,7 @@ div.main_holder1:hover h1 {
     position: absolute;
     font-size: 100px;
     margin-top: 110px;
-    z-index: 2;
+    z-index: 3;
   }
   
   .home_text2 {
@@ -1336,7 +1377,7 @@ div.main_holder1:hover h1 {
     position: absolute;
     font-size: 80px;
     top: 420px;
-    z-index: 2;
+    z-index: 3;
   }
 
 }
