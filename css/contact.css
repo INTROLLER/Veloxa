@@ -1,5 +1,6 @@
 body {
-  background-color: #383838;
+  background: radial-gradient(ellipse at center, #1B2735 0%, #090A0F 100%);
+  /*background: radial-gradient(ellipse at center, #00523d 0%, #021b15 100%);*/
   scroll-behavior: smooth;
 }
   
@@ -237,7 +238,9 @@ a.main_logo_text:hover {
 }
   
   div.Button_container1 {
-    background-color: #1a1a1a;
+    background: radial-gradient(ellipse at center, #1B2735 0%, #090A0F 100%);
+    /*background: radial-gradient(ellipse at center, #0f335c 0%, #0a0c16 100%);*/
+    /*background: radial-gradient(ellipse at center, #003d2e 0%, #021b15 100%);*/
     width: 100%;
     height: 140px;
     border-radius: 30px;
@@ -287,7 +290,8 @@ a.main_logo_text:hover {
   }
 
   div.main_holder1 {
-    background-color: #1a1a1a;
+    /*background: radial-gradient(ellipse at center, #0f335c 0%, #0a0c16 100%);*/
+    /*background: radial-gradient(ellipse at center, #003d2e 0%, #021b15 100%);*/
     width: 100%;
     height: 100%;
     margin-top: 10px;
