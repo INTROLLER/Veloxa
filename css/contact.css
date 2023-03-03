@@ -133,6 +133,11 @@ a.main_logo_text:hover {
 .extra_btn_text1:hover {
   /* Set the border bottom color to white */
   border-bottom-color: #00e5aa;
+  top: 49px;
+}
+
+.extra_btn_text1:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .extra_btn_text2 {
@@ -167,6 +172,11 @@ a.main_logo_text:hover {
 .extra_btn_text2:hover {
   /* Set the border bottom color to white */
   border-bottom-color: #00e5aa;
+  top: 49px;
+}
+
+.extra_btn_text2:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .extra_btn_text3 {
@@ -201,6 +211,11 @@ a.main_logo_text:hover {
 .extra_btn_text3:hover {
   /* Set the border bottom color to white */
   border-bottom-color: #00e5aa;
+  top: 49px;
+}
+
+.extra_btn_text3:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
   
 .extra_btn_text1 {
@@ -222,7 +237,7 @@ a.main_logo_text:hover {
 }
   
   div.Button_container1 {
-    background-color: #242424;
+    background-color: #1a1a1a;
     width: 100%;
     height: 140px;
     border-radius: 30px;
@@ -238,7 +253,7 @@ a.main_logo_text:hover {
   }
   
   div.about_section {
-    background-color: #242424;
+    background-color: #1a1a1a;
     width: 100%;
     height: 250px;
     margin-top: 10px;
@@ -246,7 +261,7 @@ a.main_logo_text:hover {
   }
   
   div.contact_section {
-    background-color: #242424;
+    background-color: #1a1a1a;
     width: 100%;
     height: 150px;
     margin-top: 10px;
@@ -272,7 +287,7 @@ a.main_logo_text:hover {
   }
 
   div.main_holder1 {
-    background-color: #242424;
+    background-color: #1a1a1a;
     width: 100%;
     height: 100%;
     margin-top: 10px;
