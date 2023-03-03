@@ -483,6 +483,7 @@ div.main_holder1:hover h1 {
 
   box-shadow: 0 0 0 2px transparent;
   transition: box-shadow 0.2s ease;
+  transition: all 0.2s ease;
 
   align-items: center;
   justify-content: center;
@@ -516,12 +517,16 @@ div.main_holder1:hover h1 {
   position: absolute;
   user-select: none;
   border-bottom: 2px solid transparent;
-
   margin-top: 360px;
 }
 
 .our_offers_buy_button1:hover {
   border-bottom-color: #00e5aa;
+  margin-top: 345px;
+}
+
+.extra_btn_text2:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .our_offers_holder2 {
@@ -539,6 +544,8 @@ div.main_holder1:hover h1 {
   align-items: center;
   justify-content: center;
   display: flex;
+
+  transition: all 0.2s ease;
 }
 
 .our_offers_holder2:hover {
@@ -574,6 +581,11 @@ div.main_holder1:hover h1 {
 
 .our_offers_buy_button2:hover {
   border-bottom-color: #00e5aa;
+  margin-top: 345px;
+}
+
+.extra_btn_text2:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .our_offers_holder3 {
@@ -591,6 +603,8 @@ div.main_holder1:hover h1 {
   align-items: center;
   justify-content: center;
   display: flex;
+
+  transition: all 0.2s ease;
 }
 
 .our_offers_holder3:hover {
@@ -626,6 +640,11 @@ div.main_holder1:hover h1 {
 
 .our_offers_buy_button3:hover {
   border-bottom-color: #00e5aa;
+  margin-top: 345px;
+}
+
+.extra_btn_text2:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .our_offers_holder4 {
@@ -643,6 +662,8 @@ div.main_holder1:hover h1 {
   align-items: center;
   justify-content: center;
   display: flex;
+
+  transition: all 0.2s ease;
 }
 
 .our_offers_holder4:hover {
@@ -678,6 +699,11 @@ div.main_holder1:hover h1 {
 
 .our_offers_buy_button4:hover {
   border-bottom-color: #00e5aa;
+  margin-top: 345px;
+}
+
+.extra_btn_text2:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 
@@ -696,6 +722,8 @@ div.main_holder1:hover h1 {
   align-items: center;
   justify-content: center;
   display: flex;
+
+  transition: all 0.2s ease;
 }
 
 .our_offers_holder5:hover {
@@ -731,6 +759,11 @@ div.main_holder1:hover h1 {
 
 .our_offers_buy_button5:hover {
   border-bottom-color: #00e5aa;
+  margin-top: 345px;
+}
+
+.extra_btn_text2:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 @media only screen and (max-width: 595px) {
@@ -996,31 +1029,58 @@ div.main_holder1:hover h1 {
     width: 300px;
     margin-left: 0px;
     margin-top: -2025px;
+    transition: all 0.2s ease;
   }
+
+  .our_offers_holder1:hover {
+    margin-top: -2040px;
+  }
+  
 
   .our_offers_holder2 {
     width: 300px;
     margin-left: 0px;
     margin-top: -1010px;
+    transition: all 0.2s ease;
+  }
+
+  .our_offers_holder2:hover {
+    margin-top: -1025px;
   }
 
   .our_offers_holder3 {
     width: 300px;
     margin-left: 0px;
     margin-top: 15px;
+    transition: all 0.2s ease;
+  }
+
+  .our_offers_holder3:hover {
+    margin-top: 0px;
   }
 
   .our_offers_holder4 {
     width: 300px;
     margin-left: 0px;
     margin-top: 1030px;
+    transition: all 0.2s ease;
+  }
+
+  .our_offers_holder4:hover {
+    margin-top: 1015px;
   }
 
   .our_offers_holder5 {
     width: 300px;
     margin-left: 0px;
     margin-top: 2045px;
+    transition: all 0.2s ease;
   }
+
+  .our_offers_holder5:hover {
+    margin-top: 2030px;
+  }
+
   
   .our_offers_title1 {
     font-size: 32px;
@@ -1072,6 +1132,8 @@ div.main_holder1:hover h1 {
 
   .products_main_title1 {
     margin-top: -2535px;
+    margin-left: 0px;
+    margin-right: 0px;
     z-index: 10;
   }
 
@@ -1080,9 +1142,18 @@ div.main_holder1:hover h1 {
     margin-top: -2025px;
   }
 
+  .our_offers_holder1:hover {
+    margin-top: -2040px;
+  }
+
+
   .our_offers_holder2 {
     margin-left: 0px;
     margin-top: -1010px;
+  }
+
+  .our_offers_holder2:hover {
+    margin-top: -1025px;
   }
 
   .our_offers_holder3 {
@@ -1090,14 +1161,26 @@ div.main_holder1:hover h1 {
     margin-top: 15px;
   }
 
+  .our_offers_holder3:hover {
+    margin-top: 0;
+  }
+
   .our_offers_holder4 {
     margin-left: 0px;
     margin-top: 1030px;
   }
 
+  .our_offers_holder4:hover {
+    margin-top: 1015px;
+  }
+
   .our_offers_holder5 {
     margin-left: 0px;
     margin-top: 2045px;
+  }
+
+  .our_offers_holder5:hover {
+    margin-top: 2030px;
   }
   
   .our_offers_title1 {
@@ -1160,9 +1243,17 @@ div.main_holder1:hover h1 {
     margin-left: -450px;
   }
 
+  .our_offers_holder1:hover {
+    margin-top: -990px;
+  }
+
   .our_offers_holder2 {
     margin-right: -450px;
     margin-top: -975px;
+  }
+
+  .our_offers_holder2:hover {
+    margin-top: -990px;
   }
 
   .our_offers_holder3 {
@@ -1170,14 +1261,26 @@ div.main_holder1:hover h1 {
     margin-top: 40px;
   }
 
+  .our_offers_holder3:hover {
+    margin-top: 25px;
+  }
+
   .our_offers_holder4 {
     margin-right: -450px;
     margin-top: 40px;
   }
 
+  .our_offers_holder4:hover {
+    margin-top: 25px;
+  }
+
   .our_offers_holder5 {
     margin-left: 0px;
     margin-top: 1055px;
+  }
+
+  .our_offers_holder5:hover {
+    margin-top: 1040px;
   }
 
   div.about_section {
@@ -1209,7 +1312,7 @@ div.main_holder1:hover h1 {
   }
 
   .products_main_title1 {
-    margin-top: -1485px;
+    margin-top: -970px;
     margin-left: 0px;
     margin-right: 0px;
     z-index: 10;
@@ -1220,9 +1323,17 @@ div.main_holder1:hover h1 {
     margin-left: -900px;
   }
 
+  .our_offers_holder1:hover {
+    margin-top: -475px;
+  }
+
   .our_offers_holder2 {
     margin-right: 0px;
     margin-top: -460px;
+  }
+
+  .our_offers_holder2:hover {
+    margin-top: -475px;
   }
 
   .our_offers_holder3 {
@@ -1230,14 +1341,26 @@ div.main_holder1:hover h1 {
     margin-top: -460px;
   }
 
+  .our_offers_holder3:hover {
+    margin-top: -475px;
+  }
+
   .our_offers_holder4 {
     margin-right: -450px;
     margin-top: 555px;
   }
 
+  .our_offers_holder4:hover {
+    margin-top: 540px;
+  }
+
   .our_offers_holder5 {
     margin-left: -450px;
     margin-top: 555px;
+  }
+
+  .our_offers_holder5:hover {
+    margin-top: 540px;
   }
 
   div.about_section {
