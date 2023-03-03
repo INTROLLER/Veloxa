@@ -1,6 +1,7 @@
 body {
-  background-color: #383838;
+  background-color: #333;
   scroll-behavior: smooth;
+  transition: background-color 0.5s ease;
 }
 
 html {
@@ -31,18 +32,6 @@ html {
 .contact_image {
   height: 24px;
   margin-right: 8px;
-}
-
-#scroll-up-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #4CAF50;
-  color: white;
-  padding: 10px 20px;
-  border-radius: 5px;
-  cursor: pointer;
-  z-index: 10;
 }
 
 
@@ -107,7 +96,7 @@ a.main_logo_text:hover {
   width: 250px;
   height: 80px;
   
-  box-shadow: 0 0 0 3px #00e5aa;
+  box-shadow: 0 0 0 2px #00e5aa;
 
 }
 
@@ -146,6 +135,11 @@ a.main_logo_text:hover {
 .extra_btn_text1:hover {
   /* Set the border bottom color to white */
   border-bottom-color: #00e5aa;
+  top: 49px;
+}
+
+.extra_btn_text1:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .extra_btn_text2 {
@@ -182,6 +176,11 @@ a.main_logo_text:hover {
 .extra_btn_text2:hover {
   /* Set the border bottom color to white */
   border-bottom-color: #00e5aa;
+  top: 49px;
+}
+
+.extra_btn_text2:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .extra_btn_text3 {
@@ -218,6 +217,11 @@ a.main_logo_text:hover {
 .extra_btn_text3:hover {
   /* Set the border bottom color to white */
   border-bottom-color: #00e5aa;
+  top: 49px;
+}
+
+.extra_btn_text3:hover:not(:hover) {
+  transition-delay: 0s; /* Remove the delay if the cursor is no longer hovering over the element */
 }
 
 .extra_btn_text1 {
@@ -240,14 +244,14 @@ a.main_logo_text:hover {
 
 div.Button_container1 {
   position: relative;
-  background-color: #242424;
+  background-color: #1a1a1a;
   width: 100%;
   height: 140px;
   border-radius: 30px;
 }
 
 div.main_holder1 {
-  background-color: #242424;
+  background-color: #1a1a1a;
   width: 100%;
   height: 1085px;
   margin-top: 10px;
@@ -259,7 +263,7 @@ div.main_holder1 {
 }
 
 .main_home_holder1 {
-  background-color: #242424;
+  background-color: #1a1a1a;
   width: 100%;
   height: 700px;
   margin-top: 10px;
@@ -278,8 +282,12 @@ div.main_holder1 {
   text-align: center;
 }
 
+div.main_home_holder1:hover {
+  box-shadow: 0 0 0 2px #00e5aa;
+}
+
 div.about_section {
-  background-color: #242424;
+  background-color: #1a1a1a;
   width: 100%;
   height: 260px;
   margin-top: 10px;
@@ -295,7 +303,7 @@ div.about_section {
 }
 
 div.contact_section {
-  background-color: #242424;
+  background-color: #1a1a1a;
   width: 100%;
   height: 150px;
   margin-top: 10px;
@@ -382,7 +390,7 @@ div.main_holder1:hover h1 {
   color: #ffffff;
   position: absolute;
   font-size: 100px;
-  top: 270px;
+  top: 280px;
   z-index: 2;
 }
 
@@ -393,6 +401,7 @@ div.main_holder1:hover h1 {
   font-size: 80px;
   top: 420px;
   z-index: 2;
+  transition: all 0.2s ease;
 }
 
 .about_section2 {
@@ -426,7 +435,7 @@ div.main_holder1:hover h1 {
 }
 
 .our_offers_holder1 {
-  background-color: #111111;
+  background-color: #0a0a0a;
   position: absolute;
   height: 450px;
   width: 400px;
@@ -478,7 +487,7 @@ div.main_holder1:hover h1 {
 }
 
 .our_offers_holder2 {
-  background-color: #111111;
+  background-color: #0a0a0a;
   position: absolute;
   height: 450px;
   width: 400px;
@@ -530,7 +539,7 @@ div.main_holder1:hover h1 {
 }
 
 .our_offers_holder3 {
-  background-color: #111111;
+  background-color: #0a0a0a;
   position: absolute;
   height: 450px;
   width: 400px;
@@ -582,7 +591,7 @@ div.main_holder1:hover h1 {
 }
 
 .our_offers_holder4 {
-  background-color: #111111;
+  background-color: #0a0a0a;
   position: absolute;
   height: 450px;
   width: 400px;
@@ -635,7 +644,7 @@ div.main_holder1:hover h1 {
 
 
 .our_offers_holder5 {
-  background-color: #111111;
+  background-color: #0a0a0a;
   position: absolute;
   height: 450px;
   width: 400px;
@@ -1254,7 +1263,7 @@ div.main_holder1:hover h1 {
 
   .home_text2 {
     font-size: 35px;
-    top: 450px;
+    top: 460px;
   }
 
 }
