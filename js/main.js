@@ -8,7 +8,7 @@ if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 // Generate random binary digits, starting positions, animation properties, and append them to the container
 for (let i = 0; i < numDigits; i++) {
-  const binaryDigit = document.createElement('div');
+  const binaryDigit = document.createElement('p');
   binaryDigit.classList.add('binary-digit1');
   binaryDigit.innerText = Math.round(Math.random()); // Generate a random 0 or 1
   binaryDigit.style.left = `${Math.random() * 92}%`; // Generate a random starting position
