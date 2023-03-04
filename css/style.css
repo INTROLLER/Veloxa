@@ -17,6 +17,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  transition: all 0.4s ease;
 }
 
 .main_logo img {
@@ -69,7 +70,6 @@ a.main_logo_text {
   transition: all 0.2s ease;
   
   /* Set the display to inline-block */
-  display: inline-block;
   position: relative;
 
 
@@ -81,11 +81,6 @@ a.main_logo_text {
   text-decoration: none;
   user-select: none;
   border-radius: 30px;
-
-  box-shadow: 0 0 0 2px transparent;
-  transition: box-shadow 0.2s ease;
-
-  
 
 }
 
@@ -100,9 +95,19 @@ a.main_logo_text:hover {
   /* Keep the size of the element constant */
   width: 250px;
   height: 80px;
+
+  top: 25px;
   
-  box-shadow: 0 0 0 2px #00e5aa;
+  /*box-shadow: 0 0 0 2px #00e5aa;*/
 }
+
+.main_logo_image {
+  transition: all 0.2s ease;
+}
+
+/*a.main_logo_text:hover .main_logo_image {
+  
+}*/
 
 .extra_btn_text1 {
   /* Set the font family to "Source Sans Pro" */
@@ -872,8 +877,6 @@ div.main_holder1:hover h1 {
   a.main_logo_text {
     position: none;
     font-size: 30px;
-    box-shadow: 0 0 0 2px transparent;
-    transition: box-shadow 0.2s ease;
     width: 150px;
     height: 50px;
     margin-top: -130px;
@@ -881,7 +884,6 @@ div.main_holder1:hover h1 {
   }
 
   a.main_logo_text:hover {
-    box-shadow: 0 0 0 2px #00e5aa;
     font-size: 30px;
     width: 150px;
     height: 50px;
