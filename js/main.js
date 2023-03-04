@@ -1,5 +1,10 @@
 const binaryContainer = document.querySelector('.main_home_holder1');
-const numDigits = 200; // Adjust the number of digits generated
+let numDigits = 200; // Default number of digits
+
+// Adjust the number of digits generated based on the device
+if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+  numDigits = 100; // Reduce the number of digits for mobile devices
+}
 
 // Generate random binary digits, starting positions, animation properties, and append them to the container
 for (let i = 0; i < numDigits; i++) {
