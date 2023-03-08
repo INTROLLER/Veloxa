@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<html manifest="cache.manifest">
+
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="UTF-8">
@@ -16,10 +18,10 @@
 
 <body>
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-  <!--<audio src="./media/audio/Chill Lofi Backgrounds.mp3" autoplay loop></audio>-->
+  <audio src="./media/audio/Chill Lofi Backgrounds.mp3" autoplay loop></audio>
   <div class="Button_container1">
       <div class="main_logo">
-        <a href="./index.html" class="main_logo_text">
+        <a href="./index.html" class="main_logo_text" id="main_logo_text">
             <img class="main_logo_image" src="./media/images/veloxa_icon2.png" alt="Veloxa logo">
             Veloxa
         </a>
@@ -39,7 +41,7 @@
         </a>
       </div>
   </div>
-  <div class="main_home_holder1">
+  <div     class="main_home_holder1">
     <p style="text-shadow: 8px 8px 8px #000000;" class="home_text1">Welcome to Veloxa!</p>
     <p style="text-shadow: 8px 8px 8px #000000;" class="home_text2">Best tech service for your needs!</p>
     <!-- <img class="home_image1" src="./media/images/coding_wallpaper.jpg" alt=""> -->
