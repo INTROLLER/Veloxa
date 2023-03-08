@@ -1,0 +1,26 @@
+CACHE MANIFEST
+# Version: 1.0
+
+CACHE:
+/index.html
+/shop.html
+/contact.html
+/css/style.css
+/css/contact.css
+/js/main.js
+/media/images/anti_malware_icon1.png
+/media/images/app_dev_icon1.png
+/media/images/broken_hardware_icon1.png
+/media/images/oding_wallpaper.jpg
+/media/images/contact_phone_icon1.png
+/media/images/plus_logo1.png
+/media/images/question_mark_icon1.png
+/media/images/shopping_cart_icon.png
+/media/images/software_fix_icon1.png
+/media/images/veloxa_icon2.png
+/media/images/web_dev_icon1.png
+
+NETWORK:
+*
+
+FALLBACK:
